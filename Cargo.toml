@@ -1,0 +1,11 @@
+[package]
+authors = ["MGlolenstine <mglolenstine@gmail.com>"]
+edition = "2018"
+name = "bevy_fps_controller"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.4"
+heron = {git = "https://github.com/jcornaz/heron.git", branch = "main"}
